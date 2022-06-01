@@ -1,0 +1,19 @@
+.accordeon-element{
+    border: 1px solid black;
+}
+.accordeon-element h1{
+    color: red;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid green;
+    cursor: pointer
+}
+.accordeon-content{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: 2s height;
+}
+.accordeon-content p{
+    padding: 10px;
+}
